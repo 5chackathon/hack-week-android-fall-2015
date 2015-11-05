@@ -105,8 +105,8 @@ public class WeatherActivity extends ActionBarActivity {
 
             // update min and max temp
             JSONObject minMaxTemp = data.getJSONArray("weather").getJSONObject(0);
-            tvHigh.setText(minMaxTemp.getString("maxtempF"));
-            tvLow.setText(minMaxTemp.getString("mintempF"));
+            tvHigh.setText(minMaxTemp.getString("maxtempF") + DEGREE_SYMBOL);
+            tvLow.setText(minMaxTemp.getString("mintempF") + DEGREE_SYMBOL);
 
             // update city text
             JSONObject request = data.getJSONArray("request").getJSONObject(0);
