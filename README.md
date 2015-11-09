@@ -7,6 +7,7 @@ Installation
 	* If not, download the [Android SDK Bundle for Android Studio](http://developer.android.com/sdk/installing/index.html).
 * Create an emulator in Android Studio
 * Make sure that everything is working and that you can compile an Android app with Android Studio
+* This is a more comprehensive installation guide: [Railsbridge Android Installation](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.p)
 
 Structure of an Android App
 ---
